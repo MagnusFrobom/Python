@@ -5,4 +5,4 @@ for i in range(int(input())):
     except ZeroDivisionError as e:
         print("Error Code: integer division or modulo by zero")
     except ValueError as e:
-        print("Error Code", e)
+        print("Error Code:", e)
